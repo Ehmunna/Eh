@@ -1,0 +1,279 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+  
+}
+header{width: 100%;
+height:100px;
+position: relative;}
+
+header div{
+  float: left;
+  justify-content: space-between;
+}
+header .logo{margin-left: 25px;
+padding-top:20px;
+  
+}
+header .nav{position: absolute;
+top:0 ;
+right: 0;
+margin-right:20px;
+  
+}
+header .nav ul{
+  list-style:none;
+}
+header .nav ul li{
+  float: left;
+  padding:20px;
+  font-weight: bold;
+}
+header .nav ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+header .nav ul li a:hover{
+  color: #7f97ff;
+}
+
+
+.section1{background-color: #f9f9ff;
+width:100%;
+height:600px ;
+display: flex;
+justify-content: space-between;
+align-items: center
+  
+}
+.haf1, .haf2{
+  width: 50%;}
+  .haf1{
+    margin-left: 200px
+  }
+  .haf2{
+    margin-right: 160px;
+  }
+  .haf2 img{
+    max-width: 100%;
+    height:auto ;
+  }
+  .haf1 h3{
+    font-weight: normal;
+  }
+  .haf1 h1{
+    font-size:20px
+  }
+  .haf1 input{
+    width:160px;
+    height:30px;
+    background-color: #8393ff;
+    outline: none;
+    color:white;
+    border:1px solid #8393ff;
+    border-radius: 2px;
+    font-size: 20px
+  }
+  .haf1 input:hover{
+    box-shadow: 5px 10px 30px #6F76C4;
+  }
+  .section2{
+    width: 100%;
+    height:600px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9ff;
+  }
+  .s2, .s3{
+    width: 50%;
+  }
+  .s2{margin-left:80px;
+    
+  }
+  .s3{
+    margin-right: 160px;
+  }
+  
+.s2 img{
+  max-width: 100%;
+  height: auto;
+}
+.s3 h3{
+  font-weight: normal;
+}
+.s3 h1{
+  font-size: 30px
+}
+.s3 input{
+  width: 160px;
+  height: 30px;
+  background: #8393ff;
+  color:white;
+  outline: none;
+  border: 1px solid #8393ff;
+  border-radius: 2px;
+  font-size: 20px;
+}
+.s3 input:hover{
+  box-shadow: 5px 10px 30px #6F76C4
+}
+.section3{width: 100%;
+height:600px;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+  
+}
+.s4 h1{font-size: 40px;
+
+  
+}
+.s4 p{width:600px;
+margin: 0 auto;
+  
+}
+.ser{width: 80%;
+margin: 0 auto;
+padding-top: 45px;
+  
+}
+
+.ser1, .ser2{width: 100%;
+overflow: hidden;
+  
+}
+.ser2{
+  margin-top: 45px;
+}
+.ser1 div, .ser2 div{
+  width: 32%;
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
+}
+.ser i{
+  font-size: 30px
+}
+ .ser h1:hover, i:hover{
+  color:#8393ff;
+}
+
+.section4{width: 100%;
+height:300px;
+background-color: #8293ff;
+  
+}
+.section4 div{
+  float: left;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-left:45px
+  
+}
+.section4{
+  color:white;
+}
+.section5{width:100%;
+box-sizing: border-box;
+height:700px ;
+  
+}
+.section5 .text{
+text-align: center;
+}
+.section5 .text h1{
+  font-size: 40px
+}
+.pr{width:85%;
+height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap:wrap;
+margin-left:100px
+  
+}
+.pr div{
+  width:33%;
+  height: auto;
+  text-align: center ;
+  border-radius: 5px 
+}
+.pr img{
+  width:100%
+}
+.pr div:hover{background: linear-gradient(#8EAC20, #9220AC);
+color:white;
+  
+}
+.section6{width: 100%;
+height: 600px;
+  
+}
+.text4{
+text-align: center
+}
+.card{width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.card1{width: 200px;
+height:400px;
+background-color:#25C44C;
+text-align: center;
+border:1px solid rgba(30, 110, 248, 1);
+}
+.card1:hover{background-color: rgba(205, 196, 190, 1);
+color:#BE12A4;
+}
+.card1 hr{background-color: red;
+padding:2px
+}
+input{width:90px;
+height: 30px;
+background-color: red;
+color:white;
+font-size: 20px
+  
+}
+footer{background-color: black;
+width: 100%;
+height: 400px;
+position: absolute;
+color: white;
+  
+}
+.fot{width:80%;
+height: auto ;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+margin-top:120px;
+}
+.fot1{
+  width: 480px;
+}
+.fot1 h3{
+  font-size: 30px
+}
+
+.fot1 p{
+  font-size:15px;
+  margin-top: 30px
+}
+.fot1 input{
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px
+}
+ .fot1 .cop{font-size: 25px;
+ color:red;
+}
